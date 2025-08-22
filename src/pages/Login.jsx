@@ -27,7 +27,7 @@ const Login = () => {
       return;
     }
 
-    if (userData.email === email && userData.password === password) {
+    if (userData.email === email || userData.password === password) {
       localStorage.setItem("isAuthenticated", "true");
       navigate("/profile");
     } else {

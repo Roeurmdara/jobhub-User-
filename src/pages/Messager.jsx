@@ -7,12 +7,12 @@ const Messager = () => {
   const [newMessage, setNewMessage] = useState("")
   const [searchQuery, setSearchQuery] = useState("")
 
-  const conversations = [
+const conversations = [
     {
       id: 1,
       name: "Jan Mayer",
       title: "Recruiter at Nomad",
-      avatar: "https://i.pinimg.com/1200x/22/8b/cf/228bcf5a0800f813cd1744d4ccbf01ea.jpg",
+      avatar: "/placeholder.svg?height=40&width=40",
       lastMessage: "We want to invite you for a qui...",
       timestamp: "12 mins ago",
       unread: true,
@@ -22,7 +22,7 @@ const Messager = () => {
       id: 2,
       name: "Joe Bartmann",
       title: "HR Manager at TechCorp",
-      avatar: "https://i.pinimg.com/736x/f2/f0/bd/f2f0bd0ab2ad2190eb3ccdca98e6392b.jpg",
+      avatar: "/placeholder.svg?height=40&width=40",
       lastMessage: "Hey thanks for your interview...",
       timestamp: "3:40 PM",
       unread: false,
@@ -32,7 +32,7 @@ const Messager = () => {
       id: 3,
       name: "Ally Wales",
       title: "Talent Acquisition at StartupX",
-      avatar: "https://i.pinimg.com/736x/93/de/d3/93ded39714506e66aa0384c3c835f1a1.jpg",
+      avatar: "/placeholder.svg?height=40&width=40",
       lastMessage: "Hey thanks for your interview...",
       timestamp: "3:40 PM",
       unread: false,
@@ -42,7 +42,7 @@ const Messager = () => {
       id: 4,
       name: "James Gardner",
       title: "Senior Recruiter at InnovateInc",
-      avatar: "https://i.pinimg.com/1200x/07/d4/a2/07d4a206ab56f0258088028cde679a67.jpg",
+      avatar: "/placeholder.svg?height=40&width=40",
       lastMessage: "Hey thanks for your interview...",
       timestamp: "3:40 PM",
       unread: false,
@@ -52,7 +52,7 @@ const Messager = () => {
       id: 5,
       name: "Allison Geidt",
       title: "HR Director at GlobalTech",
-      avatar: "https://i.pinimg.com/736x/d2/73/24/d27324f9a6658211fccac3b3da6f9be1.jpg",
+      avatar: "/placeholder.svg?height=40&width=40",
       lastMessage: "Hey thanks for your interview...",
       timestamp: "3:40 PM",
       unread: false,
@@ -62,7 +62,7 @@ const Messager = () => {
       id: 6,
       name: "Ruben Culhane",
       title: "Talent Scout at CreativeAgency",
-      avatar: "https://i.pinimg.com/1200x/08/46/f3/0846f330124976ac7326c4fe5aec9335.jpg",
+      avatar: "/placeholder.svg?height=40&width=40",
       lastMessage: "Hey thanks for your interview...",
       timestamp: "3:40 PM",
       unread: false,
@@ -72,7 +72,7 @@ const Messager = () => {
       id: 7,
       name: "Lydia Diaz",
       title: "Recruitment Lead at FinanceFirst",
-      avatar: "https://i.pinimg.com/1200x/d8/aa/a5/d8aaa54ffe2f8f2e91b4cfd564e2e407.jpg",
+      avatar: "/placeholder.svg?height=40&width=40",
       lastMessage: "Hey thanks for your interview...",
       timestamp: "3:40 PM",
       unread: false,
@@ -82,32 +82,21 @@ const Messager = () => {
       id: 8,
       name: "James Dokidis",
       title: "Head of Talent at MediaGroup",
-      avatar: "https://i.pinimg.com/1200x/2e/23/14/2e2314aa0887ad4e95d6e544d7ae6803.jpg",
+      avatar: "/placeholder.svg?height=40&width=40",
       lastMessage: "Hey thanks for your interview...",
       timestamp: "3:40 PM",
       unread: false,
       online: false,
     },
-   
-  ]
-
-  const messages = [
     {
-      id: 1,
-      sender: "Jan Mayer",
-      content:
-        "Hey Jake, I wanted to reach out because we saw your work contributions and were impressed by your work.\n\nWe want to invite you for a quick interview",
-      timestamp: "12 mins ago",
-      isOwn: false,
-      avatar: "https://i.pinimg.com/1200x/22/8b/cf/228bcf5a0800f813cd1744d4ccbf01ea.jpg",
-    },
-    {
-      id: 2,
-      sender: "You",
-      content: "Hi Jan, sure I would love to. Thanks for taking the time to see my work!",
-      timestamp: "12 mins ago",
-      isOwn: true,
-      avatar: "https://i.pinimg.com/736x/55/13/bc/5513bcf739d64e80a9273c74cee7f8a9.jpg",
+      id: 9,
+      name: "Angelina Swann",
+      title: "Senior HR at HealthcarePlus",
+      avatar: "/placeholder.svg?height=40&width=40",
+      lastMessage: "Hey thanks for your interview...",
+      timestamp: "3:40 PM",
+      unread: false,
+      online: false,
     },
   ]
 
