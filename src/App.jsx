@@ -3,6 +3,7 @@ import ProtectedRoute from "./components/ProtectedRoute"
 import BlankLayout from "./layouts/BlankLayout"
 import DashboardLayout from "./layouts/DashboardLayout"
 import PublicLayout from "./layouts/PublicLayout"
+import 'flowbite'
 import SidebarOnlyLayout from "./layouts/SidebarOnlyLayout"
 import Register from "./pages/Register"
 import Login from "./pages/Login"
